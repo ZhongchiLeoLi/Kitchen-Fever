@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=VegetableChef
+comment0.text=\r\n\ @author\ Alexander,\ Daniel,\ Deston\ and\ Justin\r\n\ @version\ October\ 2018\r\n
+comment1.params=
+comment1.target=VegetableChef()
+comment1.text=\r\n\ Constructor\r\n
+comment2.params=
+comment2.target=void\ FollowChef()
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ do\ whatever\ the\ VegetableChef\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=4

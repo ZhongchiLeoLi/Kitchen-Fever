@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=ProgressBar
+comment0.text=\r\n\ @author\ Alexander\ Yee\ \ \r\n\ @version\ October\ 2018\r\n
+comment1.params=width\ height
+comment1.target=ProgressBar(double,\ double)
+comment2.params=
+comment2.target=void\ setUp()
+comment3.params=
+comment3.target=void\ resize()
+comment3.text=\r\n\ Adds\ one\ level\ of\ progress\ \ \ \ \r\n
+comment4.params=
+comment4.target=void\ changeLocation()
+comment4.text=\r\n\ Shift\ the\ par\ to\ the\ left\r\n
+numComments=5

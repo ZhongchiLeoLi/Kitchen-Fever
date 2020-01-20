@@ -1,0 +1,174 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import java.util.*;
+/**
+ * Write a description of class Chefs here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Chefs extends Actor
+{
+    protected int speed = 2;
+    private String targPoint;
+    private String nextPoint;
+    
+    public void moveTowards(String desPoint)
+    {
+        targPoint = desPoint;
+        if(targPoint == "target1")
+        {
+            List <target1> group = getObjectsInRange(2000,target1.class);
+            Actor currPoint = group.get(0);
+            int targetX = currPoint.getX();
+            int targetY = currPoint.getY();
+            if(targetX <= this.getX())
+            {
+                setLocation(this.getX() - speedX, this.getY());
+            }
+            if(targetY <= this.getY())
+            {
+                setLocation(this.getX(), this.getY() - speedY);
+            }
+            if(targetX >= this.getX())
+            {
+                setLocation(this.getX() + speedX, this.getY());
+            }
+            if(targetY >= this.getY())
+            {
+                setLocation(this.getX(), this.getY() + speedY);
+            }
+        }
+        else if(targPoint == "target2")
+        {
+            List <target2> group = getObjectsInRange(2000,target2.class);
+            Actor currPoint = group.get(0);
+            int targetX = currPoint.getX();
+            int targetY = currPoint.getY();
+            if(targetX <= this.getX())
+            {
+                setLocation(this.getX() - speedX, this.getY());
+            }
+            if(targetY <= this.getY())
+            {
+                setLocation(this.getX(), this.getY() - speedY);
+            }
+            if(targetX >= this.getX())
+            {
+                setLocation(this.getX() + speedX, this.getY());
+            }
+            if(targetY >= this.getY())
+            {
+                setLocation(this.getX(), this.getY() + speedY);
+            }
+        }
+        else if(targPoint == "target3")
+        {
+            List <target3> group = getObjectsInRange(2000,target3.class);
+            Actor currPoint = group.get(0);
+            int targetX = currPoint.getX();
+            int targetY = currPoint.getY();
+            if(targetX <= this.getX())
+            {
+                setLocation(this.getX() - speedX, this.getY());
+            }
+            if(targetY <= this.getY())
+            {
+                setLocation(this.getX(), this.getY() - 1);
+            }
+            if(targetX >= this.getX())
+            {
+                setLocation(this.getX() + 1, this.getY());
+            }
+            if(targetY >= this.getY())
+            {
+                setLocation(this.getX(), this.getY() + 1);
+            }
+        }
+        else if(targPoint == "target4")
+        {
+            List <target4> group = getObjectsInRange(2000,target4.class);
+            Actor currPoint = group.get(0);
+            int targetX = currPoint.getX();
+            int targetY = currPoint.getY();
+            if(targetX <= this.getX())
+            {
+                setLocation(this.getX() - 1, this.getY());
+            }
+            if(targetY <= this.getY())
+            {
+                setLocation(this.getX(), this.getY() - 1);
+            }
+            if(targetX >= this.getX())
+            {
+                setLocation(this.getX() + 1, this.getY());
+            }
+            if(targetY >= this.getY())
+            {
+                setLocation(this.getX(), this.getY() + 1);
+            }
+        }
+    }
+    
+    public void prepare()
+    {
+        Actor target1 = getOneObjectAtOffset(0, 0, target1.class);
+        Actor target2 = getOneObjectAtOffset(0, 0, target2.class);
+        Actor target3 = getOneObjectAtOffset(0, 0, target3.class);
+        Actor target4 = getOneObjectAtOffset(0, 0, target4.class);
+        if (target1 != null)
+        {
+            nextPoint = "target2";
+        }
+        else if (target2 != null)
+        {
+            nextPoint = "target3";
+        }
+        else if (target3 != null)
+        {
+            nextPoint = "target4";
+        }
+        else if (target4 != null)
+        {
+            nextPoint = "target1";
+        }
+        moveTowards(nextPoint);
+    }
+    
+    /**
+     * Act - do whatever the Chefs wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+
+    }    
+    
+    protected void move()
+    {
+        if(Greenfoot.isKeyDown("up"))
+        {
+            setLocation(getX(), getY()-speed);
+            
+        }
+        if(Greenfoot.isKeyDown("down"))
+        {
+            setLocation(getX(), getY()+speed);
+            
+        }
+        if(Greenfoot.isKeyDown("left"))
+        {
+            setLocation(getX()-speed, getY());
+            
+        }
+        if(Greenfoot.isKeyDown("right"))
+        {
+            setLocation(getX()+speed, getY());
+            
+        }
+    }
+    
+    protected void location()
+    {
+        System.out.println("X = " + getX() + " Y = " + getY());
+    }
+}

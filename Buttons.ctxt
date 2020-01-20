@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Buttons
+comment0.text=\n\ This\ class\ is\ a\ widget\ that\ creats\ buttons\n\ for\ users\ to\ input\ their\ own\ orders\ into\n\ the\ simulation\n\ \n\ @author\ Zhongchi\ Li\n\ @Oct\ 2018\n
+comment1.params=length\ width\ image\ altImage\ stay
+comment1.target=Buttons(int,\ int,\ java.lang.String,\ java.lang.String,\ boolean)
+comment1.text=\n\ The\ main\ constructor,\ accepts\ the\ length,\ width,\ \n\ name\ of\ the\ image\ files,\ and\ whether\ it\ will\ stay\n\ as\ clicked\ down\ or\ not\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act,\ sets\ paint\ order\ and\ check\ for\ clicks\n
+comment3.params=
+comment3.target=void\ click()
+comment3.text=\n\ this\ method\ checks\ if\ button\ is\ clicked\ and\n\ sets\ the\ images\ accordingly\n
+comment4.params=
+comment4.target=boolean\ getClicked()
+comment4.text=\n\ returns\ if\ it\ has\ been\ clicked\ or\ not\n
+comment5.params=
+comment5.target=void\ disable()
+comment5.text=\n\ returns\ if\ it\ has\ been\ disabled\ or\ not\n
+comment6.params=
+comment6.target=void\ enable()
+comment6.text=\n\ returns\ whether\ it\ is\ enabled\n
+numComments=7

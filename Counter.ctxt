@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Counter
+comment0.text=\r\n\ Updates\ the\ counter\ class\ image\ whenever\ the\ Grain\ Chef\ obtains\ noodles\ or\ rice.\r\n\ \r\n\ @author\ Justin\ Huynh\r\n\ @version\ October\ 2018\r\n
+comment1.params=
+comment1.target=Counter()
+comment2.params=
+comment2.target=void\ getNoodles()
+comment2.text=\r\n\ Updates\ counter\ image\ with\ noodles\r\n\ \r\n
+comment3.params=
+comment3.target=void\ getRice()
+comment3.text=\r\n\ Updates\ counter\ image\ with\ an\ open\ rice\ pot\r\n\ \r\n
+comment4.params=
+comment4.target=void\ returnImage()
+comment4.text=\r\n\ Returns\ image\ to\ original\ countertop\ (no\ noodles\ or\ rice)\r\n
+comment5.params=
+comment5.target=void\ act()
+comment5.text=\r\n\ After\ 50\ frames\ have\ passed,\ image\ will\ return\ to\ the\ empty\ countertop\r\n
+numComments=6

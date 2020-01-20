@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=MeatChef
+comment0.text=\r\n\ @author\ Alexander,\ Daniel,\ Deston\ and\ Justin\r\n\ @version\ October\ 2018\r\n
+comment1.params=
+comment1.target=MeatChef()
+comment1.text=\r\n\ Constructor\ for\ MeatChef\ class\r\n
+comment2.params=
+comment2.target=void\ FollowChef()
+comment3.params=
+comment3.target=void\ act()
+numComments=4

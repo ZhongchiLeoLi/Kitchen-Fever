@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Order
+comment0.text=\r\n\ Creates\ and\ stores\ data\ about\ the\ orders\r\n\ \r\n
+comment1.params=ingredients
+comment1.target=Order(java.lang.String[])
+comment2.params=w
+comment2.target=void\ addedToWorld(greenfoot.World)
+comment3.params=
+comment3.target=java.lang.String[]\ getIngredients()
+comment4.params=
+comment4.target=void\ changeLocation()
+numComments=5

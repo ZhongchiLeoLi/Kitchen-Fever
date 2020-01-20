@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=GrainChef
+comment0.text=\r\n\ @author\ Alexander,\ Daniel,\ Deston\ and\ Justin\r\n\ @version\ October\ 2018\r\n
+comment1.params=
+comment1.target=GrainChef()
+comment1.text=\r\n\ Constructor\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ PlaterChef\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ FollowChef()
+comment4.params=
+comment4.target=void\ updatePlate()
+comment4.text=\r\n\ Updates\ whether\ the\ plate\ has\ been\ placed\r\n
+numComments=5
