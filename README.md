@@ -6,9 +6,8 @@ that features:
 - Customization order for user input
 - Adjustable cutting and cooking time
 
-For more information, head to my personal website:
-https://zhongchi.me/Kitchen-Fever-3967ab4e72754e5f9022419bbfa3f91a
-----------------------------------------------------------------------------
-HOW TO START THIS PROJECT: Run project on Greenfoot
+To view the simulation and read more about it:
+https://www.notion.so/Kitchen-Fever-3967ab4e72754e5f9022419bbfa3f91a
+
 
 AUTHORS: Alexander Yee, Zhongchi Li, Daniel Tan, Deston Wong, Justin Huynh 
